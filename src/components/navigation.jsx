@@ -40,7 +40,7 @@ function Navigation() {
   ];
 
   return (
-    <div className="h-full w-64 text-black p-3">
+    <div className="w-64 text-black p-3">
       <ul>
         {menuItems.map((item) => (
           <li

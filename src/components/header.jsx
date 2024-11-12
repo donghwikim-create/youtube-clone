@@ -11,7 +11,7 @@ import Logo from '../images/logo.jpg';
 
 function header() {
   return (
-    <>
+    <header id="header">
       <div className="contain flex justify-between items-center w-full h-16 px-4">
         <div className="flex items-center">
           <button className="w-10 h-10 flex items-center justify-center rounded-full transition duration-200 hover:bg-gray-300">
@@ -64,7 +64,7 @@ function header() {
           </button>
         </div>
       </div>
-    </>
+    </header>
   );
 }
 

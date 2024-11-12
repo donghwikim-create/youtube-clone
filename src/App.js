@@ -1,12 +1,12 @@
 import './App.css';
-import Header from './components/header';
-import Navigation from './components/navigation';
+// import Main from './pages/main/Main';
+// import Search from './pages/search/Search';
+import Watch from './features/watchPage/Watch';
 
 function App() {
   return (
     <>
-      <Header />
-      <Navigation />
+    <Watch />
     </>
   );
 }
